@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #eee5d9;
+    color: #333;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+span{
+    font-family: 'Material Symbols Outlined';
+    font-size: 8px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;      
+}
+
+
+header{
+    background-color:#e7d6b5 ;
+    padding: 5px 15px 15px 15px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+header .container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.logo, .logo a:link,.logo a:visited{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(223, 154, 108, 0.842);
+    text-decoration: none;
+    margin: 1px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 0.25em;
+}
+
+nav ul li a{
+    color: #58340b;
+    text-decoration: none;
+}
+
+#sobre{
+    background-color: antiquewhite;
+    margin: 50px;
+    margin-top: 120px;
+    padding: 100px;
+    text-align: center;
+    border-radius: 60px;
+    box-shadow: 5px 5px 13px 3px rgba(46, 20, 3, 0.5);
+}
